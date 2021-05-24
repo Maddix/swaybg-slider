@@ -1,5 +1,8 @@
 #!/bin/env newlisp
 
+;; Set the seed for amb
+(seed (time-of-day))
+
 (constant
 	'wallpaper-directory "/home/maddix/Photos/Wallpapers"
 	'wallpaper-extensions '("jpg" "jpeg" "png")
